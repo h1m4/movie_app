@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Movie App!!</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Movie App</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div id="movie" class="well"></div>
+    </div>
+    <script
+  src="https://code.jquery.com/jquery-3.4.0.min.js"
+  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="js/main.js">
+  </script>
+  <script>
+    get_movie(); /*열리면 이 스크립트가 실행되서 api로부터 정보를 가져옴*/
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+    </style>
+  </body>
+</html>
